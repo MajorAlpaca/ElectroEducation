@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - PCBs</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/pcb.jpg">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        
+        <div id="HeadButtons">
+            <style>
+                #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                    text-decoration: none;
+                }
+            </style>
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <style>
+                        #PCB{
+                            color: red;
+                        }
+                    </style>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+    <div class="pcbIMG">
+        <img src="Images/pcb.jpg" alt="" id="pcbIMG">
+    </div>
+
+
+
+    <div id="pcbtext">
+        <span>PCBs &#40;Printed Circuit Boards - Placas de Circuito Impressas&#41;</span>
+    </div>
+
+    <style>
+        #pcbtext{
+            width: 100%;
+            position: relative;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    </style>
+
+    <ul>
+        <li>
+            Os <span class="bold">PCBs</span> foram criados para substituir as antigas pontes de terminais, onde se fixavam os componentes eletrónicos numa montagem conhecida no jargão da eletrónica como "montagem aranha". Este nome deve-se à aparência final, que lembrava uma aranha, principalmente devido às válvulas eletrónicas e aos seus múltiplos pinos terminais do socket de fixação. Esses circuitos suportam mecanicamente e conectam eletricamente os componentes eletrónicos, utilizando trilhas, pads e outros elementos gravados em folhas de cobre laminado sobre um substrato não condutor.
+        </li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Face Única</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Face Única (Single-Sided PCB): Tem trilhas de cobre em apenas um lado da placa. É usada em circuitos simples e de baixo custo.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Dupla Face</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Dupla Face (Double-Sided PCB): Tem trilhas de cobre em ambos os lados da placa. Permite uma maior densidade de componentes e conexões em comparação com as PCBs de face única.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs Multicamadas</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB Multicamadas (Multilayer PCB): Consiste em várias camadas de trilhas de cobre separadas por materiais isolantes. Usadas em aplicações complexas onde a alta densidade de componentes e interconexões é necessária.
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs Flexíveis</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB Flexível (Flexible PCB): Feita de materiais flexíveis, permite que a placa seja dobrada e torcida. Utilizada em dispositivos onde o espaço é limitado e a flexibilidade é essencial, como em dispositivos portáteis.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs Rígido-Flexíveis</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB Rígido-Flexível (Rigid-Flex PCB): Combina partes rígidas e flexíveis na mesma placa. Usada em aplicações que requerem ambas as propriedades, como em dispositivos médicos e militares.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Alta Frequência</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Alta Frequência (High-Frequency PCB): Projetada para operar em frequências elevadas, utilizada em comunicações RF, micro-ondas e aplicações de alta velocidade.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Alumínio</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Base de Alumínio (Aluminum PCB): Utiliza uma base de alumínio em vez de uma base de fibra de vidro. É usada em aplicações que requerem alta dissipação de calor, como em LEDs de alta potência.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Núcleo Metálico</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Núcleo Metálico (Metal Core PCB): Similar às PCBs de alumínio, mas pode usar outros metais. Oferece melhor gestão térmica e é usada em aplicações de alta potência.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Impedância Controlada</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Impedância Controlada (Controlled Impedance PCB): Projetada para ter impedância controlada nas trilhas, crucial em aplicações de alta velocidade e alta frequência.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs HDI (High-Density Interconnect)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Alta Densidade de Interconexão (HDI PCB): Tem uma alta densidade de trilhas e vias, usada em dispositivos eletrónicos modernos e compactos, como smartphones e tablets.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs com Vias Enterradas e Cegas</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB com Vias Enterradas e Cegas (Buried and Blind Vias PCB): Utiliza vias que não atravessam completamente a placa, permitindo um maior número de interconexões em PCBs multicamadas.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Alumínio Anodizado</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Alumínio Anodizado: Tem uma camada de óxido de alumínio para proteção e isolamento, utilizada em aplicações que exigem durabilidade e resistência à corrosão.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCBs de Alta Temperatura</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCB de Alta Temperatura (High-Temperature PCB): Feita de materiais que suportam altas temperaturas, usada em ambientes extremos e aplicações industriais.</li>
+    
+    </li>
+    </ul>
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+
+</body>
+</html>

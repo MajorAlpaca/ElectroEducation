@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - Fontes de Energia</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/psu.jpg">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        
+        <div id="HeadButtons">
+            <style>
+                #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                    text-decoration: none;
+                }
+            </style>
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <style>
+                        #fonte{
+                            color: red;
+                        }
+                    </style>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+
+    <div class="fonteIMG">
+        <img src="Images/psu.jpg" alt="" id="fonteIMG">
+    </div>
+
+
+
+    <div id="fontetext">
+        <span>Fontes de Energia</span></div>
+    
+    <style>
+        #fontetext{
+            width: 100%;
+            position: relative;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    </style>
+
+
+    <ul>
+        <li>
+            Uma <span class="bold">fonte de energia &#40;alimentação&#41;</span> é um dispositivo elétrico que fornece energia elétrica a uma carga elétrica. O principal objetivo de uma fonte de energia é converter a corrente elétrica de uma fonte para a tensão, corrente e frequência corretas para alimentar a carga.
+        </li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baterias</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bateria Alcalina: Comum em dispositivos portáteis como lanternas e brinquedos.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bateria de Lítio: Utilizada em dispositivos eletrónicos portáteis como telemóveis e laptops devido à sua alta densidade de energia.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bateria de Íon-Lítio (Li-Ion): Popular em dispositivos recarregáveis, oferece alta densidade de energia e longa vida útil.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bateria de Níquel-Cádmio (NiCd): Usada em ferramentas elétricas e dispositivos que requerem altas correntes de descarga.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bateria de Níquel-Hidreto Metálico (NiMH): Substitui as baterias NiCd em muitas aplicações devido à menor toxicidade.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bateria de Chumbo-Ácido: Utilizada em automóveis e sistemas de energia de reserva.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilhas</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilha Primária: Pilhas descartáveis, como pilhas alcalinas, não recarregáveis.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilha Secundária: Pilhas recarregáveis, como NiCd, NiMH e Li-Ion.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fontes de Energia AC-DC</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fonte de Energia Linear: Fornece uma tensão estável e filtrada, utilizada em equipamentos sensíveis ao ruído elétrico.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fonte de Energia Comutada (SMPS): Mais eficiente que as fontes lineares, utilizada em computadores e dispositivos eletrónicos modernos.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Geradores</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gerador de Combustível Fóssil: Utiliza gasolina, diesel ou gás natural para gerar eletricidade, comum em sistemas de energia de backup.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gerador de Energia Eólica: Utiliza a energia do vento para gerar eletricidade.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gerador de Energia Hidroelétrica: Utiliza a energia da água em movimento para gerar eletricidade.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fontes de Energia Renovável</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Painel Solar Fotovoltaico: Converte a luz solar diretamente em eletricidade, usado em sistemas de energia solar.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sistema de Energia Eólica: Utiliza turbinas eólicas para converter energia eólica em eletricidade.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sistema de Energia Hidrelétrica: Usa a energia da água em movimento para gerar eletricidade.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capacitores</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supercapacitor: Armazena grandes quantidades de energia e pode ser carregado e descarregado rapidamente, usado em aplicações de backup de energia e dispositivos de armazenamento de energia.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fontes de Energia Portáteis</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banco de Energia (Power Bank): Dispositivos portáteis que armazenam energia elétrica para carregar dispositivos móveis.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carregadores Solares Portáteis: Utilizam painéis solares para carregar dispositivos portáteis.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fontes de Alimentação Ininterrupta (UPS)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPS (Uninterruptible Power Supply): Fornece energia de backup em caso de falha de energia, comum em sistemas de computadores e servidores.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conversores de Energia</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conversor DC-DC: Converte uma tensão DC em outra tensão DC diferente, utilizado em dispositivos eletrónicos portáteis e sistemas de energia solar.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conversor AC-DC: Converte tensão AC em tensão DC, utilizado em fontes de alimentação de dispositivos eletrónicos.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conversor DC-AC (Inversor): Converte tensão DC em tensão AC, utilizado em sistemas de energia solar e baterias de backup.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Células de Combustível</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Célula de Combustível de Hidrogénio: Converte hidrogénio em eletricidade, utilizado em veículos de célula de combustível e sistemas de energia estacionários.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Célula de Combustível de Metanol: Utiliza metanol como combustível, utilizada em aplicações portáteis e estacionárias.</li>
+    </ul>
+
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+
+
+
+</body>
+</html>

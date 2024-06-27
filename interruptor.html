@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - Interruptores</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/interruptor.png">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        
+        <div id="HeadButtons">
+            <style>
+                #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                    text-decoration: none;
+                }
+            </style>
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <style>
+                        #interruptor{
+                            color: red;
+                        }
+                    </style>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+    <div class="intIMG">
+        <img src="Images/interruptor.png" alt="" id="intIMG">
+    </div>
+
+
+    <div id="inttext">
+        <span>Interruptores</span></div>
+    
+    <style>
+        #inttext{
+            width: 100%;
+            position: relative;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    </style>
+
+
+    <ul>
+        <li>
+            Os <span class="bold">interruptores</span> são componentes eletrónicos fundamentais para controlar o fluxo de corrente elétrica num circuito, podendo abrir ou fechar o circuito manualmente ou automaticamente.
+        </li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Alavanca</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Alavanca Simples (Single Pole Single Throw, SPST): Possui uma única posição de ligação e desligamento. Utilizado em aplicações simples de ligar/desligar.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Alavanca Duplo (Double Pole Single Throw, DPST): Pode controlar dois circuitos independentes simultaneamente.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Alavanca Múltipla (Single Pole Double Throw, SPDT): Pode direcionar a corrente para uma de duas saídas diferentes.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Botão</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Botão Momentâneo (Push Button Switch): Ativa o circuito apenas enquanto o botão é pressionado. Comum em campainhas e teclados.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Botão Travado (Latching Push Button Switch): Mantém a posição até que seja pressionado novamente para alterar o estado.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Chave Rotativa</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor Rotativo: Seleciona diferentes circuitos ou estados girando uma chave. Utilizado em seletores de canais, controladores de volume e temporizadores.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores Deslizantes</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor Deslizante (Slide Switch): Alteração do estado do circuito ao deslizar o interruptor. Comum em brinquedos e dispositivos portáteis.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Balanço</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Balanço (Toggle Switch): Usa uma alavanca que balança para alternar entre posições de ligado e desligado.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Pressão</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Pressão (Pressure Switch): Ativado pela mudança de pressão num sistema. Usado em sistemas hidráulicos e pneumáticos.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Proximidade</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Proximidade (Proximity Switch): Detecta a presença de um objeto sem contato físico. Utilizado em sensores automáticos, como em portas automáticas.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Inclinação</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Inclinação (Tilt Switch): Ativado quando a posição do interruptor é inclinada além de um certo ângulo. Comum em alarmes e dispositivos de segurança.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Mercúrio</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Mercúrio (Mercury Switch): Utiliza uma pequena quantidade de mercúrio num tubo selado que se desloca para fazer ou quebrar o circuito. Comum em termostatos antigos.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores Magneto-Reed</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor Reed (Reed Switch): Ativado por um campo magnético. Usado em sensores de portas e janelas.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Temperatura</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Termostato: Ativado pela mudança de temperatura. Usado em sistemas de aquecimento e refrigeração.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Luz</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor Fotoelétrico (Photoelectric Switch): Ativado pela luz, utilizado em sistemas de iluminação automática e sensores de presença.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Flutuação</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Flutuação (Float Switch): Ativado pelo nível de líquido. Utilizado em sistemas de controle de nível de água.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Fim de Curso</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Fim de Curso (Limit Switch): Ativado quando uma máquina ou parte móvel atinge uma posição específica. Usado em máquinas industriais e robótica.
+        </li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores Tácteis</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor Táctil (Tactile Switch): Ativado por pressão leve e oferece feedback táctil. Usado em teclados e painéis de controle.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptores de Pé</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interruptor de Pé (Foot Switch): Operado com o pé, comum em ferramentas elétricas e máquinas industriais.</li>
+    </ul>
+
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+
+</body>
+</html>

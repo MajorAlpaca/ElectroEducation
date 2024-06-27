@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - Disjuntores</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/disjuntor.webp">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        
+        <div id="HeadButtons">
+            <style>
+                #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                    text-decoration: none;
+                }
+            </style>
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <style>
+                        #disjuntor{
+                            color: red;
+                        }
+                    </style>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+    <div class="disIMG">
+        <img src="Images/disjuntor.webp" alt="" id="disIMG">
+    </div>
+
+
+    <div id="distext">
+        <span>Disjuntores</span></div>
+    
+    <style>
+        #distext{
+            width: 100%;
+            position: relative;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    </style>
+
+    <ul>
+        <li>
+            Um disjuntor é um interruptor elétrico projetado para proteger um circuito elétrico de danos causados por falhas na alimentação elétrica, principalmente devido a sobrecorrentes, como excesso de carga ou curto-circuito.
+Uma das principais características dos disjuntores é a sua capacidade de serem rearmados após atuarem para interromper o circuito devido a uma falha. Diferem assim dos fusíveis, que também são utilizados para proteção de circuitos, mas que se tornam inutilizáveis após a atuação.
+        </li>
+        <br>
+        <li class="tipos">       Disjuntores de Baixa Tensão</li>
+        <li id="tipos">              Disjuntor Miniatura (Miniature Circuit Breaker, MCB): Utilizado em aplicações residenciais e comerciais para proteção contra sobrecorrente e curto-circuito.</li>
+        <br>
+        <li id="tipos">              Disjuntor de Moldura Moldada (Molded Case Circuit Breaker, MCCB): Projetado para manusear correntes maiores que os MCBs, utilizado em aplicações industriais e comerciais.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Média Tensão</li>
+        <li id="tipos">              Disjuntor a Vácuo (Vacuum Circuit Breaker, VCB): Utiliza vácuo como meio de extinção de arco, ideal para aplicações de média tensão.</li>
+        <li id="tipos">              Disjuntor de Ar (Air Circuit Breaker, ACB): Utiliza ar para extinguir o arco, comumente usado em instalações industriais e comerciais de média tensão.</li>
+        <li id="tipos">              Disjuntor de Hexafluoreto de Enxofre (SF6 Circuit Breaker): Utiliza gás SF6 para extinguir o arco, utilizado em subestações elétricas.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Alta Tensão</li>
+        <li id="tipos">              Disjuntor de Óleo (Oil Circuit Breaker): Utiliza óleo para extinguir o arco, usado em sistemas de alta tensão.</li>
+        <li id="tipos">              Disjuntor de Gás (Gas Circuit Breaker): Utiliza gás para extinguir o arco, aplicável em sistemas de transmissão de alta tensão.</li>
+        <br>
+        <li class="tipos">       Disjuntores Diferenciais</li>
+        <li id="tipos">              Disjuntor Diferencial Residual (Residual Current Circuit Breaker, RCCB): Protege contra choques elétricos e fuga de corrente.</li>
+        <li id="tipos">              Disjuntor Diferencial com Proteção contra Sobrecarga (Residual Current Circuit Breaker with Overcurrent, RCBO): Combina proteção contra fugas de corrente e sobrecorrente.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Estado Sólido</li>
+        <li id="tipos">              Disjuntor de Estado Sólido (Solid State Circuit Breaker): Utiliza componentes eletrónicos para proteção, oferecendo rápida resposta e alta precisão.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Sobrecarga Térmica</li>
+        <li id="tipos">              Disjuntor de Sobrecarga Térmica (Thermal Overload Circuit Breaker): Utiliza um elemento bimetálico que desliga o circuito quando há sobrecarga térmica.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Sobrecarga Magnética</li>
+        <li id="tipos">              Disjuntor de Sobrecarga Magnética (Magnetic Overload Circuit Breaker): Usa um solenoide que reage à corrente excessiva, desligando o circuito.</li>
+        <br>
+        <li class="tipos">       Disjuntores Termomagnéticos</li>
+        <li id="tipos">              Disjuntor Termomagnético (Thermomagnetic Circuit Breaker): Combina proteção térmica e magnética, comum em aplicações residenciais e comerciais.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Falha à Terra</li>
+        <li id="tipos">              Disjuntor de Falha à Terra (Ground Fault Circuit Breaker, GFCB): Desliga o circuito ao detectar falhas à terra, prevenindo choques elétricos.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Corrente Contínua</li>
+        <li id="tipos">              Disjuntor de Corrente Contínua (DC Circuit Breaker): Projetado para circuitos de corrente contínua, utilizado em sistemas fotovoltaicos e de energia de backup.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Miniatura para PCB</li>
+        <li id="tipos">              Disjuntor de Miniatura para PCB (PCB Mount Circuit Breaker): Pequenos disjuntores montados em placas de circuito impresso, usados em eletrónica de consumo.</li>
+        <br>
+        <li class="tipos">       Disjuntores Automotivos</li>
+        <li id="tipos">              Disjuntor Automotivo (Automotive Circuit Breaker): Utilizado em sistemas elétricos de veículos para proteger contra sobrecorrente e curto-circuito.</li>
+        <br>
+        <li class="tipos">       Disjuntores de Rearme Automático</li>
+        <li id="tipos">              Disjuntor de Rearme Automático (Automatic Reset Circuit Breaker): Automaticamente rearma após um desligamento, utilizado em aplicações onde a continuidade do serviço é crítica.</li>
+    </ul>
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+
+
+
+</body>
+</html>

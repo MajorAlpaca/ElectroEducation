@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - Diodos</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/diodo.jpg">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        <style>
+            #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                text-decoration: none;
+            }
+        </style>
+        <div id="HeadButtons">
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <style>
+                        #diodo{
+                            color: red;
+                        }
+                    </style>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+    <div class="diodoIMG">
+        <img src="Images/diodo.jpg" alt="" id="diodoIMG">
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <span id="diotext">Diodos</span>
+
+    <style>
+    #diotext{
+        width: 100%;
+        position: relative;
+        top: 300px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    </style>
+
+    <ul>
+        <li>
+            O <span class="bold">diodo</span> é um componente elétrico que permite a passagem de corrente num sentido com muito mais facilidade do que no outro.
+        </li>
+        <br>
+        <li>
+            <span class="bold">Tipos de Diodos</span>
+        </li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Retificadores</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Retificador de Silício: Utilizado principalmente para converter corrente alternada (AC) em corrente contínua (DC).</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Retificador de Germânio: Tem uma menor queda de tensão direta. É utilizado em aplicações de baixa tensão.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Zener</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Zener: Utilizado em circuitos de regulação de tensão, permite a passagem de corrente reversa quando a tensão atinge um valor específico.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Schottky</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Schottky: Caracteriza-se pela sua baixa queda de tensão direta e rápida recuperação, utilizado em aplicações de alta velocidade e baixa tensão.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos LED (Light Emitting Diode)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LED: Emite luz quando uma corrente passa por ele, utilizado em ecrãs, iluminação e indicadores.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OLED (Organic LED): Utilizado em ecrãs e iluminação devido à sua flexibilidade e eficiência.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Laser</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Laser: Emite luz coerente e é utilizado em aplicações como leitura de discos ópticos e comunicação de fibra óptica.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FotoDiodos</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fotodíodo: Converte luz em corrente elétrica, utilizado em sensores de luz, fotómetros e sistemas de comunicação óptica.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos de Avalancha</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo de Avalancha: Utilizado em circuitos de proteção contra sobretensões, opera em regime de avalancha para limitar tensões excessivas.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Varicap (ou Varactor)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Varicap: Utilizado em circuitos de sintonia. A capacidade varia com a tensão aplicada.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Tunnel</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Tunnel: Utilizado em aplicações de alta frequência e como amplificador de baixa tensão devido à sua característica de tunelamento.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Gunn</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo Gunn: Utilizado em dispositivos de geração de micro-ondas, como osciladores e amplificadores de micro-ondas.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos PIN</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo PIN: Possui uma região intrínseca entre as regiões p e n, utilizado em aplicações de radiofrequência e alta frequência.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos TVS (Transient Voltage Suppression)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo TVS: Utilizado para proteger circuitos contra picos de tensão transientes.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos de Recuperação Rápida</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo de Recuperação Rápida: Projetado para ter um tempo de recuperação curto, utilizado em conversores de potência e retificação de alta frequência.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diodos Específicos para Micro-ondas</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo IMPATT: Utilizado em geradores de micro-ondas e amplificadores.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Díodo TRAPATT: Utilizado em aplicações de micro-ondas, similar ao díodo IMPATT, mas com diferentes características de operação.</li>
+    </ul>
+
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - Transistores</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/transistor.webp">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        
+        <div id="HeadButtons">
+            <style>
+                #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                    text-decoration: none;
+                }
+            </style>
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <style>
+                        #transistor{
+                            color: red;
+                        }
+                    </style>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+    <div class="transIMG">
+        <img src="Images/transistor.webp" alt="" id="transIMG">
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="transtext">
+        <span>Transistores</span></div>
+    
+    <style>
+        #transtext{
+            width: 100%;
+            position: relative;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    </style>
+
+    <ul>
+        <li>
+            O <span class="bold">transistor</span> é um dispositivo semicondutor utilizado para amplificar ou modificar sinais eletrónicos e potência elétrica. A diferença de potencial ou corrente aplicada a um par de terminais do transistor controla a corrente através de outro par de terminais.
+        </li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores Bipolares de Junção (BJT)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NPN (Négatif-Positif-Négatif): Utilizado para amplificação de sinais e comutação de corrente.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PNP (Positif-Négatif-Positif): Funciona de forma semelhante ao NPN, mas com polaridades invertidas.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores de Efeito de Campo (FET)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JFET (Junction Field-Effect Transistor): Utilizado em aplicações de alta impedância e baixo ruído.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor): Amplamente utilizado devido à sua alta eficiência e capacidade de comutação rápida.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores de Potência</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistor Bipolar de Potência (BPT): Utilizado em amplificadores de áudio, fontes de alimentação e outros dispositivos de alta potência.</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOSFET de Potência: Eficiente em termos de energia, utilizado em fontes de alimentação comutadas, inversores, etc.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores de Efeito de Campo de Óxido Metálico (MOSFET de alta frequência)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HEMT (High Electron Mobility Transistor): Usado em circuitos de alta frequência, como em comunicações sem fio e dispositivos RF.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores de Silício-Germânio (SiGe)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HBT (Heterojunction Bipolar Transistor): Combina silício e germânio para desempenho de alta frequência e baixo ruído em circuitos de comunicação.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores Unijunção (UJT)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UJT (Unijunction Transistor): Usado em osciladores de relaxamento e geradores de pulsos.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores de Efeito de Campo Orgânicos (OFET)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OFET (Organic Field-Effect Transistor): Baseado em materiais orgânicos, usado em eletrónica flexível e displays OLED.</li>
+        <br>
+        <li class="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transistores de Nanotubos de Carbono (CNTFET)</li>
+        <li id="tipos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DST (Dopingless Transistor): Um novo tipo de transistor que não requer dopagem, prometendo menor consumo de energia e maior eficiência.</li>
+
+    </ul>
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+
+
+
+</body>
+</html>

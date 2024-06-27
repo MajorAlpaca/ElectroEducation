@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroEducation - Relés</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="icon" href="Images/rele.webp">
+</head>
+<body>
+    <div class="head-nav">
+        <a id="NameTextDiv" href="index.html">ElectroEducation</a>
+        
+        <div id="HeadButtons">
+            <style>
+                #NameTextDiv, #ComponentesBTN, #ParaQueServeBTN, #SobreMimBTN{
+                    text-decoration: none;
+                }
+            </style>
+            <a id="ParaQueServeBTN" href="paraqueserve.html">Para que serve?</a>
+            <div class="dropdown-containner">
+                <span id="ComponentesBTN">Componentes eletrónicos</span>
+                <div class="dropdown">
+                    <a href="condensador.html" id="condensador">Condensadores</a>
+                    <a href="diodo.html" id="diodo">Diodos</a>
+                    <a href="resistencia.html" id="resistencia">Resistências</a>
+                    <a href="transistor.html" id="transistor">Transistores</a>
+                    <style>
+                        #rele{
+                            color: red;
+                        }
+                    </style>
+                    <a href="breadboard.html" id="breadboard">Breadboards</a>
+                    <a href="PCB.html" id="PCB">PCBs &#40;Printed Circuit Boards&#41;</a>
+                    <a href="interruptor.html" id="interruptor">Interruptores</a>
+                    <a href="fonte.html" id="fonte">Fontes de Energia</a>
+                    <a href="indutor.html" id="indutor">Indutores</a>
+                    <a href="fusivel" id="fusivel">Fusíveis</a>
+                    <a href="disjuntor" id="disjuntor">Disjuntores</a>
+                    <a href="rele" id="rele">Relés</a>
+
+                </div>
+            </div>
+            <a id="SobreMimBTN" href="sobremim.html">Sobre mim</a>
+        </div>
+    </div>
+
+
+    <div class="relIMG">
+        <img src="Images/rele.webp" alt="" id="relIMG">
+    </div>
+
+
+    <div id="reltext">
+        <span>Relés</span></div>
+    
+    <style>
+        #reltext{
+            width: 100%;
+            position: relative;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    </style>
+
+    <ul>
+        <li>
+            Um relé é um interruptor eletromecânico projetado por Michael Faraday na década de 1830, com inúmeras aplicações possíveis em comutação de contactos elétricos, servindo para ligar ou desligar dispositivos. A movimentação física deste interruptor ocorre quando a corrente elétrica percorre as espiras da bobina do relé, criando um campo magnético que, por sua vez, atrai a alavanca responsável pela mudança do estado dos contactos.
+        </li>
+        <br>
+        <li class="tipos">       Relés Eletromecânicos</li>
+        <li id="tipos">              Relé de Potência (Power Relay): Utilizado para controlar circuitos de alta corrente em aplicações industriais e automotivas.</li>
+        <li id="tipos">              Relé de Sinal (Signal Relay): Projetado para correntes mais baixas, usado em eletrónica de consumo e telecomunicações.</li>
+        <br>
+        <li class="tipos">       Relés de Estado Sólido</li>
+        <li id="tipos">              Relé de Estado Sólido (Solid State Relay, SSR): Utiliza componentes eletrónicos para comutação, oferecendo maior durabilidade e tempo de resposta mais rápido em comparação aos relés eletromecânicos.</li>
+        <br>
+        <li class="tipos">       Relés de Tempo</li>
+        <li id="tipos">              Relé Temporizador (Time Delay Relay): Proporciona um atraso temporizado antes de acionar ou desligar, usado em automação industrial.</li>
+        <br>
+        <li class="tipos">       Relés de Sobrecorrente</li>
+        <li id="tipos">              Relé de Sobrecorrente (Overcurrent Relay): Desliga o circuito quando a corrente excede um limite predefinido, utilizado em sistemas de proteção elétrica.</li>
+        <br>
+        <li class="tipos">       Relés de Subcorrente</li>
+        <li id="tipos">              Relé de Subcorrente (Undercurrent Relay): Atua quando a corrente cai abaixo de um valor especificado, utilizado em proteção de motores.</li>
+        <br>
+        <li class="tipos">       Relés de Sobretensão</li>
+        <li id="tipos">              Relé de Sobretensão (Overvoltage Relay): Desliga o circuito quando a tensão excede um limite seguro, utilizado em sistemas de proteção de energia.</li>
+        <br>
+        <li class="tipos">       Relés de Subtensão</li>
+        <li id="tipos">              Relé de Subtensão (Undervoltage Relay): Atua quando a tensão cai abaixo de um nível seguro, protegendo equipamentos contra baixa tensão.</li>
+        <br>
+        <li class="tipos">       Relés de Falta à Terra</li>
+        <li id="tipos">              Relé de Falta à Terra (Earth Fault Relay): Deteta falhas de isolamento e desliga o circuito para evitar choques elétricos.</li>
+        <br>
+        <li class="tipos">       Relés de Proteção</li>
+        <li id="tipos">              Relé de Proteção Diferencial (Differential Protection Relay): Deteta diferenças de corrente entre dois pontos, utilizado em transformadores e linhas de transmissão.</li>
+        <li id="tipos">              Relé de Proteção de Sobrecarga Térmica (Thermal Overload Protection Relay): Protege motores contra sobrecarga térmica.</li>
+        <br>
+        <li class="tipos">       Relés de Monitorização de Fase</li>
+        <li id="tipos">              Relé de Monitorização de Fase (Phase Monitoring Relay): Deteta falhas ou desequilíbrios nas fases de alimentação elétrica, protegendo equipamentos trifásicos.</li>
+        <br>
+        <li class="tipos">       Relés de Contato Auxiliar</li>
+        <li id="tipos">              Relé de Contato Auxiliar (Auxiliary Contact Relay): Utilizado para amplificar sinais de controle ou isolar diferentes circuitos de controle.</li>
+        <br>
+        <li class="tipos">       Relés de Segurança</li>
+        <li id="tipos">              Relé de Segurança (Safety Relay): Projetado para aplicações de segurança, garantindo que os sistemas entrem em um estado seguro em caso de falha.</li>
+        <br>
+        <li class="tipos">       Relés de Estado Sólido de Alta Tensão</li>
+        <li id="tipos">              Relé de Estado Sólido de Alta Tensão (High Voltage Solid State Relay): Usado em aplicações de alta tensão, fornecendo comutação rápida e segura sem partes móveis.</li>
+        <br>
+        <li class="tipos">       Relés de Interface</li>
+        <li id="tipos">              Relé de Interface (Interface Relay): Facilita a conexão entre diferentes tipos de sistemas de controle, como PLCs e dispositivos de campo.</li>
+        <br>
+        <li class="tipos">       Relés de Estado Sólido de Corrente Alternada</li>
+        <li id="tipos">              Relé de Estado Sólido AC (AC Solid State Relay): Projetado para controlar cargas de corrente alternada com alta precisão e confiabilidade.</li>
+        <br>
+        <li class="tipos">       Relés de Estado Sólido de Corrente Contínua</li>
+        <li id="tipos">              Relé de Estado Sólido DC (DC Solid State Relay): Ideal para aplicações que exigem controle preciso de cargas de corrente contínua.</li>
+        <br>
+        <li class="tipos">       Relés Temporizadores Programáveis</li>
+        <li id="tipos">              Relé Temporizador Programável (Programmable Timer Relay): Permite a configuração de temporizações complexas para automação e controle de processos industriais.</li>
+        <br>
+        <li class="tipos">       Relés Bifásicos</li>
+        <li id="tipos">              Relé Bifásico (Bipolar Relay): Utilizado para controle de circuitos bipolares, comutando duas correntes simultaneamente.</li>
+        <br>
+        <li class="tipos">       Relés de Contato de Estado Sólido</li>
+        <li id="tipos">              Relé de Contato de Estado Sólido (Solid State Contact Relay): Combina a funcionalidade de relés de estado sólido com contatos físicos, oferecendo flexibilidade e durabilidade.</li>
+        <br>
+        <li class="tipos">       Relés de Alta Frequência</li>
+        <li id="tipos">              Relé de Alta Frequência (High Frequency Relay): Projetado para operar em frequências de rádio e micro-ondas, usado em telecomunicações e equipamentos de teste.</li>
+    </ul>
+
+
+    <style>
+        ul{
+            top: 400px;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .tipos{
+            list-style-type: square;
+        }
+
+        #tipos{
+            list-style-type: circle;
+        }
+    </style>
+
+</body>
+</html>

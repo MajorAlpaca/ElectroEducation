@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.head-nav {
+    background-color: #0169E1;
+    height: 100px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: #3DDFF5;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    z-index: 1000;
+}
+
+#NameTextDiv {
+    color: #01FF70;
+    -webkit-text-stroke: .30px white;
+    font-size: 80px;
+}
+
+#ParaQueServeBTN,
+#ComponentesBTN,
+#SobreMimBTN {
+    color: black;
+}
+
+#HeadButtons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 125px;
+    font-size: 50px;
+
+}
+
+#ParaQueServeIntro {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: justify;
+    position: relative;
+    top: 125px;
+    font-size: 20px;
+
+}
+
+#obj {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-size: 50px;
+
+}
+
+#lista {
+    position: relative;
+    display: block;
+    top: 180px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    position: relative;
+    text-align: justify;
+    display: block;
+}
+
+#edu {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#prat {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#var {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#voltarpqs {
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+
+.dropdown {
+    position: absolute;
+    top: 10%;
+    top: -130px;
+    left: 1168px;
+    width: 200px;
+    height: 300px;
+    margin-top: 10%;
+    width: 10.25%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #01FF70;
+    z-index: 100000;
+    gap: 3px;
+}
+
+#dropdown a {
+    margin-bottom: 1em;
+    color: purple;
+}
+
+
+
+    
+
+.dropdown-containner:hover .dropdown {
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.IMGDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    
+}
+
+.diodoIMG{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}
+
+#diodoIMG{
+    width: 20%;
+    
+    
+}
+
+.resIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 270px;
+}
+
+.tipos{
+    font-weight: bold;
+}
+
+.transIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+
+.breadIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 125px;
+    
+}
+
+#breadIMG{
+    width: 29%;
+}
+
+.pcbIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+
+
+#intIMG{
+    width: 290px;
+}
+
+.intIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+.fonteIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 140px;
+}
+
+#fonteIMG{
+    width: 25%;
+}
+
+#fusIMG{
+    width: 20%;
+}
+
+.fusIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+
+#disIMG{
+    width: 20%;
+}
+
+.disIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+
+#relIMG{
+    width: 30%;
+}
+
+.relIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+
+
+.indIMG{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 175px;
+}
+
+#indIMG{
+    width: 400px;
+}
